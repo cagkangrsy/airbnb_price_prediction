@@ -24,8 +24,8 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 @st.cache_data
 # Reading the necessary dataframes
 def get_data():
-    df = pd.read_csv("Datasets/df_final.csv")
-    df_city = pd.read_csv("Datasets/city_center.csv")
+    df = pd.read_csv("streamlit_data/df_final.csv")
+    df_city = pd.read_csv("streamlit_data/city_center.csv")
     return df, df_city
 
 

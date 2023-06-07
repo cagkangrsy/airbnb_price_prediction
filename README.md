@@ -24,6 +24,7 @@ https://github.com/cagkangrsy/airbnb_price_prediction/assets/75528306/801627a1-0
 
 ## License
 
-The data is taken from http://insideairbnb.com/get-the-data for each city and compiled into a single dataset
+The data is taken from http://insideairbnb.com/get-the-data for each city and compiled into a single dataset.
+The link to datasets used in the notebooks can be accessed from notebbook_data.txt
 
 ---

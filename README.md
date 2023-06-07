@@ -18,7 +18,7 @@ The machine learning project HOMIDAY is focused on home price prediction. Within
 
 ## Usage
 
-[Project Site Link]([https://link-url-here.org](https://cagkangrsy-airbnb-price-predict-homiday-airbnb-streamlit-hin2zg.streamlit.app/))
+[Project Site Link](https://cagkangrsy-airbnb-price-predict-homiday-airbnb-streamlit-hin2zg.streamlit.app/)
 
 Note: When application is started it encounters an error which can be bypassed by clicking anywhere on the map
 

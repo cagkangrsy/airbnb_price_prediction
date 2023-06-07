@@ -22,7 +22,7 @@ def get_data():
 
 def main ():
     st.set_page_config(page_title="Homiday AirBNB Price Predictor", 
-    page_icon="homiday_logo.png", 
+    page_icon="images/homiday_logo.png", 
     layout="wide",
     menu_items={'About':""})
 
@@ -31,7 +31,7 @@ def main ():
     with col1:
         st.write("")
     with col2:
-        st.image('homiday_logo_horizontal.png')
+        st.image('images/homiday_logo_horizontal.png')
     with col3:
         st.write("")
     

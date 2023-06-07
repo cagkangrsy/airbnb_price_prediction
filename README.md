@@ -18,8 +18,9 @@ The machine learning project HOMIDAY is focused on home price prediction. Within
 
 ## Usage
 
-Click on image to watch usage demo of the application.
-[![Video Demo](images/streamlit_screen.png)]([https://www.example.com/full/video/link.mp4](https://youtu.be/h5AoR1Sbgz0))
+https://github.com/cagkangrsy/airbnb_price_prediction/assets/75528306/801627a1-09d4-49e9-8dfe-97069851ba2e
+
+
 
 ## License
 

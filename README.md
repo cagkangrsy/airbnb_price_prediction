@@ -18,7 +18,8 @@ The machine learning project HOMIDAY is focused on home price prediction. Within
 
 ## Usage
 
-Provide examples and guidelines on how to use your project. Include code snippets, configuration options, or specific instructions. You can also include screenshots or GIFs to demonstrate the project in action.
+Click on image to watch usage demo of the application.
+[![Video Demo](images/streamlit_screen.png)]([https://www.example.com/full/video/link.mp4](https://youtu.be/h5AoR1Sbgz0))
 
 ## License
 

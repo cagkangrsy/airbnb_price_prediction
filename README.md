@@ -20,7 +20,7 @@ The machine learning project HOMIDAY is focused on home price prediction. Within
 
 [Project Site Link](https://cagkangrsy-airbnb-price-predict-homiday-airbnb-streamlit-hin2zg.streamlit.app/)
 
-Note: When application is started it encounters an error which can be bypassed by clicking anywhere on the map
+Note: When application is started it encounters an error which can be bypassed by clicking anywhere on the map.
 
 https://github.com/cagkangrsy/airbnb_price_prediction/assets/75528306/801627a1-09d4-49e9-8dfe-97069851ba2e
 

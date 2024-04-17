@@ -65,3 +65,6 @@ def model_preprocessing(dataframe, dataframe_city, dataframe_main):
     all_data = all_data[:1]
 
     return all_data
+
+if __name__ == "__main__":
+    main()

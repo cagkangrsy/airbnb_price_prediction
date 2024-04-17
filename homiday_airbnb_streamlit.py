@@ -5,6 +5,7 @@ from streamlit_folium import st_folium
 import folium as fl
 from folium.plugins import MousePosition
 import pickle
+import time
 
 from Helpers.model_preprocessing import *
 
@@ -14,7 +15,7 @@ pd.set_option('display.width', 500)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
 
-@st.cache
+@st.cache_data
 # Reading the necessary dataframes
 def get_data():
     df = pd.read_csv("streamlit_data/df_final.csv")
@@ -107,8 +108,13 @@ def main():
     m.add_child(fl.ClickForLatLng(alert=False))
 
     map1 = st_folium(m, height=350, width=700)
+    while True:
+        try:
+            latitude, longitude = get_pos(map1['last_clicked']['lat'], map1['last_clicked']['lng'])
+            break
+        except (TypeError):
+            time.sleep(1)
 
-    latitude, longitude = get_pos(map1['last_clicked']['lat'], map1['last_clicked']['lng'])
     data1 = (latitude, longitude)
 
     formatter = "function(num) {return L.Util.formatNum(num, 3) + ' ° ';};"
@@ -202,5 +208,5 @@ def main():
         st.write("----------------")
         st.map(features[["latitude", "longitude"]])
 
-
-main()
+if __name__ == '__main__':
+    main()

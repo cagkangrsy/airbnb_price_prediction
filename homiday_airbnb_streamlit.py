@@ -197,13 +197,13 @@ def main():
         st.write("----------------")
 
         col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
-        col1.metric(label="Rental Price", value=(str(int(prediction)) + "€/day"))
+        col1.metric(label="Rental Price", value=(str(int(prediction)) + "€"))
         col2.title("+")
         col3.metric(label="Cleaning Fee", value=(str(cleaning_fee) + "€"))
         col4.title("+")
         col5.metric(label="Security Deposit", value=(str(security_deposit) + "€"))
         col6.title("=")
-        col7.metric(label="Total Price", value=(str(int(prediction) + cleaning_fee + security_deposit) + "€"))
+        col7.metric(label="Total Price", value=(str(int(prediction) + cleaning_fee + security_deposit) + "€/day"))
 
         st.write("----------------")
         st.map(features[["latitude", "longitude"]])

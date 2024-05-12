@@ -204,7 +204,7 @@ def main():
         col5.metric(label="Security Deposit", value=(str(security_deposit) + "€"))
         col6.title("=")
         total_price = int(prediction) + cleaning_fee + security_deposit
-        col7.metric(label="Total Price (Per Day)", value=(str(int(prediction) + cleaning_fee + security_deposit) + "€/"))
+        col7.metric(label="Total Price (Per Day)", value=(str(int(prediction) + cleaning_fee + security_deposit) + "€"))
 
         st.write("----------------")
         st.map(features[["latitude", "longitude"]])

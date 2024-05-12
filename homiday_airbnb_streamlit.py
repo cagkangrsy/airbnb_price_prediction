@@ -196,7 +196,7 @@ def main():
 
         st.write("----------------")
 
-        col1, col2, col3, col4, col5, col6, empty_col1, col7, empty_col2 = st.columns(8)
+        col1, col2, col3, col4, col5, col6, empty_col1, col7, empty_col2 = st.columns(9)
         col1.metric(label="Rental Price", value=(str(int(prediction)) + "€"))
         col2.title("+")
         col3.metric(label="Cleaning Fee", value=(str(cleaning_fee) + "€"))
